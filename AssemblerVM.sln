@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Assembler", "Assembler\Assembler.vcproj", "{44DDEA4B-F6C3-49FE-8B6B-986F02F38DA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenGLTest", "OpenGLTest\OpenGLTest.vcproj", "{97A94ACD-38B0-4045-901F-41EC5F04C2A5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FDDE9F83-5342-499C-BB68-6B9AEDC581C1} = {FDDE9F83-5342-499C-BB68-6B9AEDC581C1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vmlib", "vmlib\vmlib.vcproj", "{FDDE9F83-5342-499C-BB68-6B9AEDC581C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DDEA4B-F6C3-49FE-8B6B-986F02F38DA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44DDEA4B-F6C3-49FE-8B6B-986F02F38DA5}.Debug|Win32.Build.0 = Debug|Win32
+		{44DDEA4B-F6C3-49FE-8B6B-986F02F38DA5}.Release|Win32.ActiveCfg = Release|Win32
+		{44DDEA4B-F6C3-49FE-8B6B-986F02F38DA5}.Release|Win32.Build.0 = Release|Win32
+		{97A94ACD-38B0-4045-901F-41EC5F04C2A5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97A94ACD-38B0-4045-901F-41EC5F04C2A5}.Debug|Win32.Build.0 = Debug|Win32
+		{97A94ACD-38B0-4045-901F-41EC5F04C2A5}.Release|Win32.ActiveCfg = Release|Win32
+		{97A94ACD-38B0-4045-901F-41EC5F04C2A5}.Release|Win32.Build.0 = Release|Win32
+		{FDDE9F83-5342-499C-BB68-6B9AEDC581C1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FDDE9F83-5342-499C-BB68-6B9AEDC581C1}.Debug|Win32.Build.0 = Debug|Win32
+		{FDDE9F83-5342-499C-BB68-6B9AEDC581C1}.Release|Win32.ActiveCfg = Release|Win32
+		{FDDE9F83-5342-499C-BB68-6B9AEDC581C1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

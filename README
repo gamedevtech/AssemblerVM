@@ -1,0 +1,21 @@
+A tutorial Assembler and Virtual Machine in C
+https://bitbucket.org/dwilliamson/assemblervm
+---------------------------------------------
+
+I wrote this code back in 1997 when trying to figure out how to write a compiler and virtual machine package for computer games (e.g. Lua). It's very simple and quite clean, owing to its pure C programming roots.
+
+
+Running the demo
+----------------
+
+Run Test\OpenGLTest.exe to check-out the compiled VMU file running. The test program is a triangle that can be rotated left/right and moved forward/back with the cursor keys.
+
+The input is Test\Test.asm, compiled to Test\Test.vmu. You can run "Test\Assembler.exe Test.asm" in generate the VMU file.
+
+
+The projects
+------------
+
+* VMLib: A library for a reusable stack-based virtual machine that can support lightweight, co-operative multi-threading of individual units and basic interop with code written in C. Parameters are passed on the VM stack, which C functions must pop, followed by a push for any return values.
+* Assembler: The assembler that outputs single VMU file for loading by the runtime.
+* OpenGLTest: Simple example of how to use everything.
